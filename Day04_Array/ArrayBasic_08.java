@@ -19,7 +19,7 @@ public class ArrayBasic_08 {
         int sum=0;
         for(int i=0;i<arr.length/2;i++) {
             for (int j = arr.length - 1; j > 0; j--) {
-                sum=arr[i] + arr[j - i];
+                sum=arr[i] + arr[j-i];
                 break;
             }
             System.out.println(sum);
